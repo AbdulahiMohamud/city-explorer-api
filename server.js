@@ -27,7 +27,9 @@ app.get('/weather' ,(request,response) => {
   
   let searchQueryCity = request.query.searchQueryCity;
   let cityWeather = weatherData.find((e) => e.city_name.toLowerCase() === searchQueryCity.toLowerCase());
-  let selectedCity = new Forecast(cityWeather);
+  let selectedCity = cityWeather.data.map(dailyWeather => {
+    return new Forecast(dailyWeather);
+  });
 
   response.send(selectedCity);
 
@@ -41,8 +43,8 @@ app.get('*', (request, response) => {
 // CLASSESs
 class Forecast {
   constructor(cityWeather) {
-    this.date = cityWeather.data[0].datetime;
-    this.description = cityWeather.data[0].weather.description;
+    this.date = cityWeather.datetime;
+    this.description = cityWeather.weather.description;
   }
 }
 
