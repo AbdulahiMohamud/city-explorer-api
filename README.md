@@ -19,6 +19,7 @@
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+Andrew S
 
 Name of feature: Set up your server repository.
 
@@ -31,24 +32,23 @@ Finish time:3:45
 Actual time needed to complete:45min
 
 
-Name of feature: 
+Name of feature: Weather (placeholder): As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 2h
 
-Start time: 
+Start time: 400
 
-Finish time: 
+Finish time: 900
 
-Actual time needed to complete:
+Actual time needed to complete:5h
 
 
 
-Name of feature: 
+Name of feature: Errors (revisited): As a user, I want clear messages if something goes wrong so I know if I need to make any changes or try again in a different manner.
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1h
+Start time:900 
 
-Start time: 
+Finish time: 930
 
-Finish time: 
-
-Actual time needed to complete:
+Actual time needed to complete:30min
