@@ -5,6 +5,7 @@
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) --> server
+<img width="742" alt="wwrcc-04-18_at_12 54 38_pm" src="https://user-images.githubusercontent.com/80485424/164149737-ed0c167e-3afb-4072-a907-e109282619c5.png">
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -55,6 +56,7 @@ Actual time needed to complete:30min
 
 
 
+
 Name of feature: Weather (live): As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
 
 Estimate of time needed to complete: 1h
@@ -90,3 +92,4 @@ Start time: 930
 Finish time: 1000
 
 Actual time needed to complete: 30 min
+
