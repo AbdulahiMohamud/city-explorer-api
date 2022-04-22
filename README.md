@@ -12,6 +12,8 @@
 
 ![Untitled](https://user-images.githubusercontent.com/80485424/164380422-40a36290-9ba1-497c-a831-9fc4b22dd14e.jpg)
 
+![wrrc3](https://user-images.githubusercontent.com/80485424/164583560-5e3adb9e-adac-49fd-bd8a-dcb0286356a3.jpg)
+
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
@@ -97,4 +99,13 @@ Start time: 930
 Finish time: 1000
 
 Actual time needed to complete: 30 min
+
+Name of feature: Refactor: Modularize the back-end codebase.
+Estimate of time needed to complete: 30min
+
+Start time:200
+
+Finish time:300
+Actual time needed to complete:1h
+
 
