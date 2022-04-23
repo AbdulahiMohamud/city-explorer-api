@@ -14,6 +14,8 @@
 
 ![wrrc3](https://user-images.githubusercontent.com/80485424/164583560-5e3adb9e-adac-49fd-bd8a-dcb0286356a3.jpg)
 
+![cache wrrcw (1)](https://user-images.githubusercontent.com/80485424/164872615-47383b09-5119-4c8c-863a-064e92ce4364.jpg)
+
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
@@ -108,4 +110,12 @@ Start time:200
 Finish time:300
 Actual time needed to complete:1h
 
+Name of feature:Performance: As a user, I want the application to work with recent results, so that I can see info without the app doing unnecessary API calls.
 
+Estimate of time needed to complete: 30min
+
+Start time: 430
+
+Finish time: 800
+
+Actual time needed to complete: 3h30min

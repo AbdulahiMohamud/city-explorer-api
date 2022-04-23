@@ -1,16 +1,16 @@
 'use strict';
 
-console.log('test');
+
 // REQUIRE
 // In our servers, we have to use 'require' instead of import. Here we will list the requirements for server
 
 require('dotenv').config();
-const weatherData = require('./data/weather.json');
+// const weatherData = require('./data/weather.json');
 const express = require('express');
 const app = express();
 const axios = require('axios');
-const getWeather = require('./weather.js');
-const getMovies = require('./movie.js');
+const getWeather = require('./modules/weather');
+const getMovies = require('./modules/movie');
 
 // ALLOWS SHARING BETWEEN MULTIPLE COMPUTERS
 const cors = require('cors');
@@ -31,10 +31,42 @@ app.get('/' , (req,res) => {
 })
 
 // gets weather data 
-app.get('/weather' , getWeather);
+app.get('/weather' , weatherHandler);
+
+function weatherHandler(request, response) {
+  const { searchQueryCity } = request.query;
+  // console.log(searchQueryCity);
+  getWeather(searchQueryCity)
+  .then(summaries => { 
+    response.send(summaries)
+  })
+  
+  .catch((error) => {
+    console.error(error);
+    response.status(200).send('Sorry. Something went wrong!')
+  });
+} 
+
 
 // gets movies data 
-app.get('/movies' , getMovies);
+app.get('/movies' , movieHandler);
+
+function movieHandler(request, response) {
+  const { movieQueryCity } = request.query;
+  
+  getMovies(movieQueryCity)
+  .then(summaries => { 
+    
+    response.send(summaries)
+  })
+  
+  .catch((error) => {
+    console.error(error);
+    response.status(200).send('Sorry. Something went wrong!')
+  });
+} 
+
+
 
 
 
