@@ -110,6 +110,7 @@ Start time:200
 Finish time:300
 Actual time needed to complete:1h
 
+
 Name of feature:Performance: As a user, I want the application to work with recent results, so that I can see info without the app doing unnecessary API calls.
 
 Estimate of time needed to complete: 30min
